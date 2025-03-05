@@ -1,0 +1,32 @@
+.socials-container {
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-right: 100px;
+    margin-top: -50px;
+}
+
+.facebook i {
+    width: 52px;
+}
+
+.socials-container i {
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+    padding: 13px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.socials-container i:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+.socials-container i:active {
+    transform: scale(1.4);
+}

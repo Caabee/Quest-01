@@ -1,0 +1,71 @@
+@media (max-width: 425px) {
+    body {
+        background-image: url('../images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    /* HEADER */
+
+    .header-container img {
+        width: 140px;
+        transform: translateY(-20px);
+    }
+
+    /* MAIN */
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mockups-container img {
+        width: 350px;
+        transform: translateY(-40px);
+
+    }
+
+    .texts-e-btn-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .title h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .subtitle p {
+        width: 330px;
+        text-align: center;
+    }
+
+    .register-btn button {
+        color: #323c50;
+        background-color: #fff;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    /* FOOTER */
+
+    .socials-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .facebook i {
+        width: 50px;
+    }
+
+    .socials-container i {
+        font-size: 20px;
+    }
+}
